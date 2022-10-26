@@ -20,61 +20,58 @@
 <div id="mainDiv">
 	<div id="content">
 		<div id="code">
-			<span class="comments">##</span><br/>
-			<span class="comments"># I am a programmer,</span><br/>
-			<span class="comments"># so I write code to celebrate Valentine's Day in coder's way.</span><br/>
-			<span class="comments">##</span><br/>
-			i = Boy(<span class="string">"Enze Tao"</span>);<br/>
-			u = Girl(<span class="string">"Hanchi Cao"</span>);<br/>
-			<span class="comments"># Sept 7, 2018, I meet you in XJTU. </span><br/>
+			<span class="comments">##Love Story</span><br/>
+			i = Boy(<span class="string">"陶恩泽"</span>);<br/>
+			u = Girl(<span class="string">"曹寒驰"</span>);<br/>
+			<span class="comments">#2018年9月7日，我们在XJTU相识。 </span><br/>
 			i.meet(u)<br/>
-			<span class="comments"># Afterwards, I confessed to you. </span><br/>
-			i.confess(u)<br/>
-			<span class="comments"># Sept 14, 2018, You became my girlfriend.</span><br/>
+			<span class="comments"># 从那时起，我便深深被你吸引。 </span><br/>
+			u.attract(i)<br/>
+			<span class="comments"># 2018年9月14日，我们就在一起啦！</span><br/>
 			u.accepted(i)<br/>
-			<span class="comments"># Since then, we spent harmony happiness life every day.</span><br/>
+			<span class="comments"># 从那时起，我们的生活便充满了甜蜜。</span><br/>
 			happy(u, i)<br/>
-			<span class="comments"># We enjoy studying together.</span><br/>
+			<span class="comments"># 我们在学校各处相约学习；</span><br/>
 			study(u, i)<br/>
-			<span class="comments"># We enjoy cuisine together.</span><br/>
+			<span class="comments"># 我们每天都去不同的小饭馆吃饭；</span><br/>
 			dine(u, i)<br/>
-			<span class="comments"># We enjoy appointment together.</span><br/>
+			<span class="comments"># 我们约会的身影遍布西安各处；</span><br/>
 			appoint(u, i)<br/>
-			<span class="comments"># We enjoy vacation together.</span><br/>
+			<span class="comments"># 我们一起度过了无数悠闲的假期时光。</span><br/>
 			vacation(u, i)<br/>
-			<span class="comments"># Sometimes there are a few conflicts between us.</span><br/>
+			<span class="comments"># 当然有时我们也有小冲突:P</span><br/>
 			conflict(u, i, sometimes=<span class="keyword">True</span>)<br/>
-			<span class="comments"># But we are getting more and more in harmony together.</span><br/>
+			<span class="comments"># 但是，我们的感情和默契也随着这些与日俱增。</span><br/>
 			u.in_harmony_with(i) <br/>
 			i.in_harmony_with(u) <br/>
-			<span class="comments"># You are the greatest love of my life.</span><br/>
+			<span class="comments"># 你是最了解我的人，也是我的挚爱。</span><br/>
+			<span class="comments"># 如今我们暂时分离，可距离并不能影响我对你的爱意。</span><br/>
+			i.apart_from(u) <br/>
 			while <span class="keyword">True</span>:<br/>
 			<span class="placeholder"></span><span class="keyword">if</span> u.with(i):<br/>
 			<span class="placeholder"></span><span class="placeholder"></span>u = everything<br/>
 			<span class="placeholder"></span><span class="keyword">else</span>:<br/>
 			<span class="placeholder"></span><span class="placeholder"></span>everything = u<br/>
-			<span class="comments"># Waiting me marries you, we will be the happiest couple in the world.</span><br/>
+			<span class="comments"># 未来的某一天，我们会携手走进婚姻的殿堂，我会让你成为最幸福的新娘。</span><br/>
 			i.marry(u, in_the_future=<span class="keyword">True</span>)<br/>
 			i.live_happily_forever_with(u)<br/>
-			<span class="comments"># I love you forever.</span><br/>
+			<span class="comments"># 爱你三千遍。</span><br/>
 		</div>
 		<div id="loveHeart">
 			<canvas id="garden"></canvas>
 			<div id="words">
 				<div id="messages">
-					Hanchi, I have fallen in love with you for
+					寒驰，和你在一起已经
 					<div id="elapseClock"></div>
 				</div>
 				<div id="loveu">
 					Love u forever and ever.<br/>
-					<div class="signature">- Enze Tao</div>
+					<div class="signature">- 陶恩泽</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div id="copyright">
-		Copyright © 2022 <a href='http://eztao.club'>eztao.club</a> 2021-2022
-	</div>
+
 </div>
 <script type="text/javascript">
 	var offsetX = $("#loveHeart").width() / 2;
